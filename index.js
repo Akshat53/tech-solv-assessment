@@ -784,7 +784,7 @@ function closePopup() {
 (function () {
   let formMsg = document.getElementById("fpass_error");
 
-  let fpassForm = document.querySelector("#from_reset_password");
+  let fpassForm = document.querySelector("#ct_password");
   fpassForm.addEventListener("submit", (event) => {
     event.preventDefault();
     let formData = new FormData(fpassForm);
