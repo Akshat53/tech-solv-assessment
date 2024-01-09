@@ -191,7 +191,7 @@ body {
   width: 50%;
 }
 .sub-mid2-right-title h3 {
-    text-align: center;
+  text-align: center;
 }
 .sub-mid2-right-content {
   display: flex;
@@ -201,9 +201,141 @@ body {
   display: flex;
 }
 .d1 img {
-    margin-right: 10px; 
-  }
+  margin-right: 10px;
+}
 
 .d2 p {
   color: #14ff00;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .search img {
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .title {
+    padding: 20px;
+    text-align: center;
+  }
+  .table {
+    width: 100%;
+    padding: 0px;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cell {
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mid-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .mid-left,
+  .mid-right {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mid-right h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .mid-right p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .mid-sub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .icon {
+    background-color: #0f1535;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+  .name {
+    width: 100%;
+    text-align: center;
+  }
+  .name-title {
+    margin: 0;
+    font-size: 18px !important;
+  }
+  .name-text {
+    font-size: 12px !important;
+    margin-top: 5px !important;
+    text-align: center;
+  }
+
+  .mid2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .mid2-left {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mid2-right {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .sub-mid2-right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sub-mid2-right-title h3 {
+    font-size: 18px;
+  }
+  .sub-mid2-right-content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .d1 img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  .footer-left {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .footer-center,
+  .footer-center ul {
+    width: 90%;
+  }
 }
